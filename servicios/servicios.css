@@ -1,0 +1,57 @@
+/* --- Estilos base (Móviles pequeños) --- */
+.service-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.service-card {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    background: #fff; /* Opcional según tu diseño */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.service-card img {
+    width: 100%;
+    height: 100%;
+    min-height: 120px;
+    object-fit: cover;
+}
+
+.service-card__body {
+    align-self: center;
+    padding: 12px;
+}
+
+.page-content {
+    min-height: 480px;
+}
+
+/* --- Tablets (A partir de 480px o 600px) --- */
+@media (min-width: 480px) {
+    .service-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    
+    /* Si en tablets prefieres que la tarjeta vuelva a apilarse verticalmente (imagen arriba, texto abajo): */
+    .service-card {
+        display: block;
+    }
+    
+    .service-card img {
+        height: 160px;
+    }
+}
+
+/* --- Escrititorio / Computadoras (A partir de 760px o 1024px) --- */
+@media (min-width: 768px) {
+    .service-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    
+    .service-card img {
+        height: 190px;
+    }
+}
