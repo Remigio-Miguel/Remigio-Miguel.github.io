@@ -1,25 +1,14 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://remigio-miguel.github.io/</loc>
   </url>
-
   <url>
     <loc>https://remigio-miguel.github.io/servicios/</loc>
   </url>
-
-  <url>
-    <loc>https://remigio-miguel.github.io/mi-perfil/</loc>
-  </url>
-  
   <url>
     <loc>https://remigio-miguel.github.io/buscar-servicio/</loc>
   </url>
-  
-  <url>
-    <loc>https://remigio-miguel.github.io/mis-solicitudes/</loc>
-  </url>
-
 </urlset>
+
